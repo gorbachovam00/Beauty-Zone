@@ -1,0 +1,11 @@
+.link {
+  line-height: 1.2;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    color: var(--color-brand);
+  }
+}

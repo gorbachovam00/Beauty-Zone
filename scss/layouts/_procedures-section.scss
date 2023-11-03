@@ -1,0 +1,38 @@
+.procedures-section {
+  padding: 48px 20px;
+
+  @media screen and (min-width: 1280px) {
+    padding: 40px 20px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 32px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 64px;
+      margin-bottom: 48px;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__button {
+    &--left {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+
+  &__list {
+    margin-bottom: 32px;
+  }
+}

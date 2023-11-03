@@ -1,0 +1,43 @@
+.slider-button {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  fill: var(--color-brand-dark);
+  border: 1px solid var(--color-brand-dark);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+
+  &:hover {
+    fill: var(--color-white);
+    background-color: var(--color-brand);
+    border: 1px solid var(--color-brand);
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.swiper-container {
+  display: flex;
+  justify-content: center;
+  // overflow: hidden;
+}
+
+.swiper-wrapper {
+  padding-left: 5px;
+}
+
+.swiper-slide {
+  text-align: center;
+  // list-style-type: none;
+  // display: flex;
+  // justify-content: center;
+}

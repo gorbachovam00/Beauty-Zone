@@ -1,0 +1,85 @@
+.located-section {
+  padding: 40px 0 0 0;
+
+  @media screen and (min-width: 1280px) {
+    padding: 40px 0 94px 0;
+  }
+
+  &__title {
+    font-size: 32px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 64px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1280px) {
+      flex-direction: row-reverse;
+      gap: 32px;
+    }
+  }
+
+  &__map {
+    width: 100%;
+    // max-width: 360px;
+    flex-shrink: 0;
+    height: 232px;
+    padding: 0;
+    border: none;
+
+    @media screen and (min-width: 1280px) {
+      width: 100%;
+      max-width: 605px;
+      height: 481px;
+      border-radius: 32px;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 320px;
+    height: 434px;
+    padding: 42px 24px;
+    background-image: url(../img/vector-fon-local.png);
+    background-color: var(--color-brand-dark);
+    color: var(--color-white);
+    border-radius: 32px;
+    border: 1px solid var(--color-brand-dark);
+    text-align: center;
+    margin: 0 20px 0 20px;
+
+    @media screen and (min-width: 768px) {
+      width: 100%;
+      max-width: 423px;
+      height: 481px;
+      padding: 43px 56px;
+      margin: 0 20px 0 40px;
+    }
+  }
+
+  &__modal-text {
+    margin-bottom: 24px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 32px;
+      font-size: 22px;
+    }
+  }
+
+  &__form-terms {
+    margin: 0;
+    color: var(--color-text-form);
+    font-size: 12px;
+  }
+}

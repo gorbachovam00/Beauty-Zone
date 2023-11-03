@@ -1,0 +1,77 @@
+.hero-section {
+  position: relative;
+  margin: 0 auto;
+  background-image: url("/img/clinic-bgc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 40%;
+  padding: 106px 20px 130px 20px;
+
+  @media screen and (min-width: 1280px) {
+    background-size: contain;
+    background-position: center right;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(/img/clinic-bgc@2x.png);
+  }
+
+  &__container {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+
+    @media screen and (min-width: 1280px) {
+      padding-left: 100px;
+      text-align: start;
+    }
+  }
+
+  &__text {
+    font-size: 12px;
+    color: var(--color-brand-dark);
+    line-height: 1.5;
+    margin-bottom: 0;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      margin-top: 17px;
+    }
+  }
+
+  &__title {
+    font-family: "Play", serif;
+    color: var(--color-brand);
+    line-height: 0.8;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 32px;
+    max-width: 529px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 140px;
+      padding-bottom: 40px;
+      margin: 0;
+    }
+  }
+
+  &__button {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 786px) {
+      margin-bottom: 14px;
+    }
+  }
+
+  &__button-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}

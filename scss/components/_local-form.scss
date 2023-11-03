@@ -1,0 +1,36 @@
+.local-input {
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  border-radius: 32px;
+  border: 2px solid var(--color-text-form);
+  width: 100%;
+  background-color: transparent;
+
+  @media screen and (min-width: 1280px) {
+    padding: 18px 33px;
+  }
+
+  &:focus {
+    background-color: var(--color-text-form);
+    outline: none;
+    transition: background-color 0.2s linear;
+  }
+
+  &::placeholder {
+    color: var(--color-white);
+    font-size: 13px;
+    line-height: 1.2;
+  }
+}
+
+.form-button {
+  font-size: 16px;
+
+  &:hover {
+    color: var(--color-white);
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+  }
+}

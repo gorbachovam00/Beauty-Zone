@@ -1,0 +1,29 @@
+@import "./_base.scss";
+
+@import "./components/backdrop";
+@import "./components/buttons";
+@import "./components/links";
+@import "./components/local-form";
+@import "./components/pagination";
+@import "./components/procedures-cards";
+@import "./components/stars";
+@import "./components/swiper";
+@import "./components/why-we-cards";
+
+@import "./layouts/advantages-section";
+@import "./layouts/hero-section";
+@import "./layouts/footer-mobile";
+@import "./layouts/footer";
+@import "./layouts/gradient-section";
+@import "./layouts/header";
+@import "./layouts/located-section";
+@import "./layouts/mobile-menu";
+@import "./layouts/modal";
+@import "./layouts/procedures-section";
+@import "./layouts/why-we-section";
+
+@import "./utils/fonts";
+// @import "./utils/mixins";
+@import "./utils/text";
+@import "./utils/utils";
+@import "./utils/variables";

@@ -1,0 +1,15 @@
+.brand-light {
+  color: var(--color-brand);
+  //   text-transform: capitalize;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+}
+
+.brand-dark {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.form-color {
+  color: var(--color-text-form);
+}
